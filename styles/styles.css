@@ -9,3 +9,11 @@
     margin-bottom: 16px;
     
 }
+.bird{
+    display: flex;
+    justify-content: center;
+}
+.selected-photos{
+    height: 180px;
+    width: 180px;
+}

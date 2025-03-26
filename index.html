@@ -75,18 +75,32 @@
     </div>
 
   </div>
-
-  <div class="w-11/12 mx-auto flex">
-    <section class="lg:w-2/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="category-container">
+  <div class="w-full flex ">
+    <section class="gap-5 lg:w-[70%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="category-container">
 
     </section>
-    <div class="card bg-base-100 w-5/12 shadow-sm  border-s-violet-950">
-      djhcsdhsgli
-  
-    </div>
+    <div  id="peddy-img-container"
+    class="max-tlg:w-[30%] w-[20%] h-16 grid grid-cols-2 max-tsm:grid-cols-1 gap-2 p-2">
+</div>
 
   </div>
+<!-- modal starts -->
+ <!-- You can open the modal using ID.showModal() method -->
+<button class="btn hidden" onclick="customModal.showModal()">open modal</button>
+<dialog id="customModal" class="modal">
+  <div class="modal-box w-11/12 max-w-5xl">
+    <div id="modal-content">
 
+    </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+<!-- modal ends -->
 
 
   </main>
